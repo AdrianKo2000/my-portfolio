@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-8 pt-32">
       
       <div className="order-2 lg:order-1 flex flex-col lg:h-[650px] justify-center">
         <h2 className="text-4xl font-bold mb-4 text-tealBlue dark:text-lightBlue">About Me</h2>

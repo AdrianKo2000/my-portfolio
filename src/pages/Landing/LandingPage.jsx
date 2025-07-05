@@ -29,7 +29,7 @@ const LandingPage = () => {
   });
 
   const smoothScrollYProgress = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 });
-  const y = useTransform(smoothScrollYProgress, [0, 1], ["0%", isSmallScreen ? "50%" : "150%"]);
+  const y = useTransform(smoothScrollYProgress, [0, 1], ["0%", isSmallScreen ? "0%" : "170%"]);
 
   return (
     <div ref={landingRef}>

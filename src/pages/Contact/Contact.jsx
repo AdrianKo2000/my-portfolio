@@ -3,7 +3,7 @@ import Button from "../../components/Buttons/Button";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mt-32">
       <h2 className="text-4xl font-bold mb-8 text-tealBlue dark:text-lightBlue">Contact Me</h2>
       <form className="w-full max-w-lg">
         <div className="flex flex-wrap -mx-3 mb-6">

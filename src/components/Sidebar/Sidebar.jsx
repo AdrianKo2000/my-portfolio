@@ -35,7 +35,9 @@ const Sidebar = () => {
           className=" fixed right-0 top-0 z-20 w-full overflow-hidden rounded-s-xl bg-tealBlue dark:bg-lightBlue md:w-[80%]"
           variants={sidebarVariant}
         >
-          <Nav />
+         
+            <Nav />
+          
         </motion.div>
       </motion.div>
     </>

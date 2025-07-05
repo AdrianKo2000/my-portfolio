@@ -24,7 +24,7 @@ const Nav = () => {
     },
   ];
   return (
-    <div className=" flex h-screen w-full flex-col items-center justify-center gap-6 text-2xl ">
+    <div className=" flex h-screen w-full flex-col items-center  justify-center gap-6 text-2xl ">
       {items.map(({name, id}) => <a className="hover:text-lightBlue dark:hover:text-tealBlue hover:scale-125 transition-all duration-100 " key={id} href={`#${id}`}>{name}</a>)}
     </div>
   );

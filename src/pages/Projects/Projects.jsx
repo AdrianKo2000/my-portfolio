@@ -20,14 +20,14 @@ const Projects = () => {
     {
       name: "Rock Paper Scissors",
       description: "A simple Rock Paper Scissors game built with JavaScript.",
-      image: "/rock-paper-scissors.png",
-      liveDemo: "https://adrian-projects.github.io/RockPaperScissor/",
-      sourceCode: "https://github.com/Adrian-Projects/RockPaperScissor"
+      image: "img/rock-paper-scissors.png",
+      liveDemo: "https://adrianko2000.github.io/rock-paper-scissor/",
+      sourceCode: "https://github.com/AdrianKo2000/rock-paper-scissor.git"
     }
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center pt-32">
       <h2 className="text-4xl font-bold mb-8 text-tealBlue dark:text-lightBlue">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (

@@ -25,6 +25,9 @@ const Sidebar = () => {
       },
     },
   };
+
+  
+
   return (
     <>
       <motion.div

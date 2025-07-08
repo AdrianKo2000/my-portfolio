@@ -11,7 +11,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center pt-32">
       <h2 className="text-4xl font-bold mb-8 text-tealBlue dark:text-lightBlue">My Skills</h2>
       <div className="w-full max-w-4xl">
         {skills.map((skill) => (
